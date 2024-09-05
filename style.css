@@ -1,0 +1,49 @@
+html {
+  box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+body {
+  width: 100%;
+  font-family: Roboto, sans-serif;
+}
+
+.main-header,
+.section-hero {
+  background-color: #1F2937;
+}
+
+.wrapper,
+.cta-card {
+  margin: 0 auto;
+  padding: 20px;
+  width: 70%;
+  display: flex;
+  align-items: center;
+}
+
+.header-logo {
+  font-size: 24px;
+  font-weight: 700;
+  color: #F9FAF8;
+  margin-right: auto;
+}
+
+.nav-menu {
+  display: flex;
+  list-style: none;
+  gap: 18px;
+}
+
+.menu-item > a{
+  font-size: 18px;
+  color: #E5E7EB;
+  text-decoration: none;
+}
