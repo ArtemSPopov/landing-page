@@ -142,6 +142,7 @@ body {
 }
 
 .quote-author {
+  padding-right: 54px;
   color: #1F2937;
   font-size: 28px;
   font-weight: 700;
@@ -179,4 +180,13 @@ body {
   margin-top: 8px;
   color: #F9FAF8;
   font-weight: 300;
+}
+
+.footer {
+  padding: 32px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #1F2937;
+  color: #E5E7EB;
 }
