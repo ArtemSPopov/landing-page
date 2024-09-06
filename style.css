@@ -18,13 +18,14 @@ body {
 .main-header,
 .section-hero {
   background-color: #1F2937;
+  padding-bottom: 100px;
 }
 
 .wrapper,
 .cta-card {
   margin: 0 auto;
   padding: 20px;
-  width: 70%;
+  width: 60%;
   display: flex;
   align-items: center;
 }
@@ -39,11 +40,53 @@ body {
 .nav-menu {
   display: flex;
   list-style: none;
-  gap: 18px;
+  gap: 32px;
 }
 
-.menu-item > a{
+.menu-item > a,
+.hero-subtext {
   font-size: 18px;
   color: #E5E7EB;
   text-decoration: none;
+}
+
+.section-hero {
+  display: flex;
+}
+
+.section-hero > .wrapper {
+  align-items: center;
+  gap: 48px;
+}
+
+.hero-header {
+  font-size: 48px;
+  color: #F9FAF8;
+  font-weight: 900;
+}
+
+#hero-container {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  flex: 1;
+  gap: 20px;
+}
+
+.placeholder-img {
+  width: auto;
+  height: 300px;
+}
+
+.signup {
+  margin-top: 12px;
+  padding: 12px;
+  width: 140px;
+  background-color: #3882F6;
+  border: 0;
+  border-radius: 12px;
+  color: #F9FAF8;
+  font-size: 16px;
+  font-weight: 700;
+  flex: 0 1 auto;
 }
