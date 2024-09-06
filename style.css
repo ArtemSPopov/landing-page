@@ -51,10 +51,6 @@ body {
   text-decoration: none;
 }
 
-.section-hero {
-  display: flex;
-}
-
 .section-hero > .wrapper {
   gap: 48px;
 }
@@ -76,6 +72,8 @@ body {
 .placeholder-img {
   width: auto;
   height: 300px;
+  border: 5px solid #3882F6;
+  border-radius: 16px;
 }
 
 .signup {
@@ -92,13 +90,13 @@ body {
 }
 
 .section-info {
-  padding: 48px 0;
+  padding: 48px 0 100px;
   background-color: #F9FAF8;
 }
 
 .section-info > .wrapper {
   flex-direction: column;
-  gap: 48px;
+  gap: 64px;
 }
 
 .info-header {
@@ -124,4 +122,27 @@ body {
   width: auto;
   border: 5px solid #3882F6;
   border-radius: 16px;
+}
+
+.section-quote {
+  padding: 100px 0;
+  background-color: #E5E7EB;
+}
+
+.section-quote > .wrapper {
+  align-items: flex-end;
+  flex-direction: column;
+  gap: 48px;
+}
+
+.quote-text {
+  font-size: 36px;
+  font-style: italic;
+  font-weight: 300;
+}
+
+.quote-author {
+  color: #1F2937;
+  font-size: 28px;
+  font-weight: 700;
 }
